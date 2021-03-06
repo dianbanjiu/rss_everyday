@@ -14,5 +14,4 @@ jobs:
         - name: Checkout code
           uses: actions/checkout@v2
         - name: build
-          env:
           run: go run main.go --tg_bot={{secrets.BOTTOKEN}} --tg_channel={{secrets.CHANNELID}}
