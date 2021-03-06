@@ -2,7 +2,7 @@ name: RSS Everyday
 on: 
   push:
     branches:
-      - master
+      - main
 jobs:
     search-and-push:
         runs-on: ubuntu-latest
