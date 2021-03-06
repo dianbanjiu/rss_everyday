@@ -11,6 +11,7 @@ func init() {
 	cmd.ChannelID = flag.Int64("tg_channel", 0, "Telegram channel id")
 	flag.Parse()
 	cmd.TokenVaild()
+	collector.GetRssInfo()
 }
 
 func main() {
