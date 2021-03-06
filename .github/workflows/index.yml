@@ -1,8 +1,7 @@
 name: RSS Everyday
 on: 
-  push:
-    schedule:
-      - cron: '0 1 * * *'
+  schedule:
+    - cron: '0 1 * * *'
 jobs:
     search-and-push:
         runs-on: ubuntu-latest
