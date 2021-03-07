@@ -1,7 +1,10 @@
 name: RSS Everyday
 on: 
   schedule:
-    - cron: '0 1 * * *'
+    - cron: '0 12 * * *'
+env:
+  TZ: Asia/Shanghai
+
 jobs:
     search-and-push:
         runs-on: ubuntu-latest

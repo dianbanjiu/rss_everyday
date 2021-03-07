@@ -10,12 +10,10 @@ func init() {
 	cmd.BotToken = flag.String("tg_bot", "", "Telegram bot token")
 	cmd.ChannelID = flag.Int64("tg_channel", 0, "Telegram channel id")
 	flag.Parse()
-	cmd.TokenVaild()
+	cmd.TokenValid()
 	collector.GetRssInfo()
 }
 
 func main() {
-
-
 	collector.GetPosts()
 }
