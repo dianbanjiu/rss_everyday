@@ -67,17 +67,18 @@ func GetPosts() {
 
 func GetPostInfo(rss RssInfo) []string {
 	var msg = make([]string, 0)
-	now := time.Now()
-	yesterday := time.Date(now.Year(),now.Month(), now.Day()-1, 12, 01, 00, 00, now.Location()).Unix()
-	today := time.Date(now.Year(), now.Month(), now.Day(), 14, 00, 59, 00, now.Location()).Unix()
+	now := time.Now().UTC().Add(8 * time.Hour)
+	hourBefore := time.Date(now.Year(),now.Month(), now.Day(), now.Hour()-1, 00, 00, 00, now.Location()).Unix()
+	nowHour := time.Date(now.Year(), now.Month(), now.Day(), now.Hour()-1, 59, 59, 00, now.Location()).Unix()
 
+	fmt.Println("现在的时间是：",now)
 	fp := gofeed.NewParser()
 	feed, err := fp.ParseURL(rss.Url)
 	if err != nil {
 		fmt.Print(err.Error())
 	} else {
 		for _, item := range feed.Items {
-			if item.PublishedParsed.Unix() >= yesterday && item.PublishedParsed.Unix() <= today {
+			if item.PublishedParsed.Unix() >= hourBefore && item.PublishedParsed.Unix() <= nowHour {
 				msgItem := fmt.Sprintln(item.Title, item.Link)
 				msg = append(msg, msgItem)
 
