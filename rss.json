@@ -7,6 +7,22 @@
     {
       "title": "阮一封的网络日志",
       "url": "http://feeds.feedburner.com/ruanyifeng"
+    },
+    {
+      "title": "酷壳 coolshell",
+      "url": "https://coolshell.cn/feed"
+    },
+    {
+      "title": "依云's Blog",
+      "url": "https://blog.lilydjwg.me/feed"
+    },
+    {
+      "title": "Winnie 散漫游",
+      "url": "https://winnielife.com/feed/"
+    },
+    {
+      "title": "Airing 的小屋",
+      "url": "https://me.ursb.me/feed"
     }
   ]
 }
