@@ -67,11 +67,10 @@ func GetPosts() {
 
 func GetPostInfo(rss RssInfo) []string {
 	var msg = make([]string, 0)
-	now := time.Now().UTC().Add(8 * time.Hour)
+	now := time.Now().UTC()
 	hourBefore := time.Date(now.Year(),now.Month(), now.Day(), now.Hour()-1, 00, 00, 00, now.Location()).Unix()
 	nowHour := time.Date(now.Year(), now.Month(), now.Day(), now.Hour()-1, 59, 59, 00, now.Location()).Unix()
 
-	fmt.Println("现在的时间是：",now)
 	fp := gofeed.NewParser()
 	feed, err := fp.ParseURL(rss.Url)
 	if err != nil {
