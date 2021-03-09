@@ -2,8 +2,8 @@ name: RSS Everyday
 on: 
   schedule:
     - cron: '0 * * * *'
-env:
-  TZ: Asia/Shanghai
+#env:
+#  TZ: Asia/Shanghai
 
 jobs:
     search-and-push:
