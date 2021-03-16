@@ -28,7 +28,6 @@ func init() {
 	GetRssInfo()
 }
 
-
 // RSS 构成阶段
 type RSSInfos struct {
 	RssInfo []RssInfo `json:"rss_info"`
@@ -78,7 +77,7 @@ func GetPostInfo(rss RssInfo) []string {
 		fmt.Print(err.Error())
 	} else {
 		for _, item := range feed.Items {
-			if item.PublishedParsed.Unix() >= start && item.PublishedParsed.Unix() < end {
+			if item.PublishedParsed != nil && item.PublishedParsed.Unix() >= start && item.PublishedParsed.Unix() < end {
 				msgItem := fmt.Sprintln(item.Title, item.Link)
 				msg = append(msg, msgItem)
 
