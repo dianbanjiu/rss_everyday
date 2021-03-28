@@ -35,6 +35,10 @@
     {
       "title": "阿信微博",
       "url": "https://rsshub.app/weibo/user/1265020392"
+    },
+    {
+        "title":"Product Hunt",
+        "url": "https://www.producthunt.com/feed"
     }
   ]
 }
