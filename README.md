@@ -1,5 +1,5 @@
 # 进击的 RSS
-RSS_EVERYDAY 是一个 RSS 订阅工具，它会每四小时采集一次新的文章，并通过 TG BOT 推送至指定的频道。
+RSS_EVERYDAY 是一个 RSS 订阅工具，它会每四小时采集一次新的文章，并通过 TG BOT 推送至指定的频道/群组。
 ### [中文说明](https://github.com/GuangzheJiang/rss_everyday/blob/main/README.md)|[English Description](https://github.com/GuangzheJiang/rss_everyday/blob/main/README_en.md)
 ## How to use
 ## 项目使用姿势
@@ -13,8 +13,12 @@ RSS_EVERYDAY 是一个 RSS 订阅工具，它会每四小时采集一次新的�
 
 [点此登陆](https://web.telegram.org) 网页版 telegram。点击你刚才创建的频道，链接格式类似 `https://web.telegram.org/#/im?p=cxxx_ppp` ，`-110xxx` 为你的频道 ID，记下它，之后要用到。  
 
+### TG Group 创建
+创建一个群组，添加之前创建的 bot 为管理员，添加方式类似 Channel。  
+
+[点此登陆](https://web.telegram.org) 网页版 telegram。点击你刚才创建的频道，链接格式类似 `https://web.telegram.org/#/im?p=gxxx` ，`-xxx` 为你的 Group ID。  
 ### github 配置
-克隆本仓库，在仓库的 `Settings-Secrets` 新增两个字段 `BOTTOKEN` 和 `CHANNELID`，他们的值分别是你的 bot token 和频道 ID。
+克隆本仓库，在仓库的 `Settings-Secrets` 新增两个字段 `BOTTOKEN` 和 `CHANNELID`，他们的值分别是你的 bot token 和 Channel ID/Group ID。
 
 
 ### RSS 源添加

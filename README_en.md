@@ -1,4 +1,4 @@
-RSS_EVERYDAY is an RSS subscription tool. It collects new articles every four hours and pushes them to designated channels via TG BOT.
+RSS_EVERYDAY is an RSS subscription tool. It collects new articles every four hours and pushes them to designated channels/group via TG BOT.
 ### [中文说明](https://github.com/GuangzheJiang/rss_everyday/blob/main/README.md)|[English Description](https://github.com/GuangzheJiang/rss_everyday/blob/main/README_en.md)
 ## How to use
 
@@ -12,8 +12,12 @@ Create a Channel, add the previously created bot as an administrator:
 
 [Login here](https://web.telegram.org) The web version of telegram. Click on the channel you just created. The link format is similar to `https://web.telegram.org/#/im?p=cxxx_ppp`, where `-110xxx` is your channel ID, write it down, and use it later.
 
+### Create TG Group
+Create a group. The way add bot to group is same with channel. 
+
+[Login here](https://web.telegram.org) The web version of telegram. Click on the channel you just created. The link format is similar to `https://web.telegram.org/#/im?p=gxxx`, where `-xxx` is your group ID.  
 ### Github Configuration
-Clone this repository and add two new fields `BOTTOKEN` and `CHANNELID` to the `Settings-Secrets` of the repository. Their values are your bot token and channel ID respectively.
+Clone this repository and add two new fields `BOTTOKEN` and `CHANNELID` to the `Settings-Secrets` of the repository. Their values are your bot token and channel/group ID respectively.
 
 ### RSS feed addition
 
