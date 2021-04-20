@@ -15,7 +15,8 @@ Create a Channel, add the previously created bot as an administrator:
 ### Create TG Group
 Create a group. The way add bot to group is same with channel. 
 
-[Login here](https://web.telegram.org) The web version of telegram. Click on the channel you just created. The link format is similar to `https://web.telegram.org/#/im?p=gxxx`, where `-xxx` is your group ID.  
+[Login here](https://web.telegram.org) The web version of telegram. Click on the channel you just created. The link format is similar to `https://web.telegram.org/#/im?p=gxxx`, where `-xxx` is your group ID. Or maybe it is similar to `https://web.telegram.org/#/im?p=sxxx_ppp`, in which case `-100xxx` is your group ID.
+
 ### Github Configuration
 Clone this repository and add two new fields `BOTTOKEN` and `CHANNELID` to the `Settings-Secrets` of the repository. Their values are your bot token and channel/group ID respectively.
 
@@ -26,4 +27,4 @@ If the website itself provides an RSS link, you can directly add it in the forma
 ## Precautions
 The code uses the publication time to filter. If the RSS link you subscribe to cannot parse the field, it is recommended not to add the link to the rss.json file.
 
-This project is based on the timing task of Github Action, and the Action will only be triggered when the set time is reached. This Action will not be actively triggered by operations such as pushing code.
+This project is based on the timing task of Github Action, and the Action will only be triggered when the set time is reached. You can also manually trigger the action to test its availability.
