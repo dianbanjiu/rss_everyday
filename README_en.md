@@ -10,7 +10,7 @@ Create a Channel, add the previously created bot as an administrator:
 
 > Click `Manage Channel-Administrator-Add Administrator` in the upper right corner of the channel, search for the name of the bot you created, and add it as an administrator. The permission to send messages must be granted, and other permissions are optional.
 
-[Login here](https://web.telegram.org) The web version of telegram. Click on the channel you just created. The link format is similar to `https://web.telegram.org/#/im?p=cxxx_ppp`, where `-110xxx` is your channel ID, write it down, and use it later.
+[Login here](https://web.telegram.org) The web version of telegram. Click on the channel you just created. The link format is similar to `https://web.telegram.org/#/im?p=cxxx_ppp`, where `-100xxx` is your channel ID, write it down, and use it later.
 
 ### Create TG Group
 Create a group. The way add bot to group is same with channel. 
