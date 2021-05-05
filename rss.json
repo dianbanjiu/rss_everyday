@@ -1,48 +1,28 @@
 {
   "rss_info": [
     {
-      "title": "少数派",
-      "url": "https://sspai.com/feed"
+      "title": "Mipon - Anime Tourism",
+      "url": "https://mipon.org/category/articles/feed"
     },
     {
-      "title": "阮一封的网络日志",
-      "url": "http://feeds.feedburner.com/ruanyifeng"
+      "title": "★ Supaku Blog ★",
+      "url": "http://sparknorkx.blog.fc2.com/?xml"
     },
     {
-      "title": "酷壳 coolshell",
-      "url": "https://coolshell.cn/feed"
+      "title": "Anime News Network",
+      "url": "https://www.animenewsnetwork.com/all/rss.xml"
     },
     {
-      "title": "依云's Blog",
-      "url": "https://blog.lilydjwg.me/feed"
+      "title": "Anime News",
+      "url": "https://www.reddit.com/r/animenews/.rss"
     },
     {
-      "title": "Winnie 散漫游",
-      "url": "https://winnielife.com/feed/"
+      "title": "AnimeLab",
+      "url": "https://www.animelab.com/blog/feed"
     },
     {
-      "title": "Airing 的小屋",
-      "url": "https://me.ursb.me/feed"
-    },
-    {
-      "title": "少数派 matrix",
-      "url": "https://rsshub.app/sspai/matrix"
-    },
-    {
-      "title": "五月天微博",
-      "url": "https://rsshub.app/weibo/user/3365597502"
-    },
-    {
-      "title": "阿信微博",
-      "url": "https://rsshub.app/weibo/user/1265020392"
-    },
-    {
-      "title": "Product Hunt",
-      "url": "https://www.producthunt.com/feed"
-    },
-    {
-      "title": "I'm TualatriX",
-      "url": "https://imtx.me/feed/latest/"
+      "title": "Honey's Anime",
+      "url": "https://honeysanime.com/feed"
     }
   ]
 }
