@@ -5,7 +5,7 @@
       "url": "https://sspai.com/feed"
     },
     {
-      "title": "阮一封的网络日志",
+      "title": "阮一峰的网络日志",
       "url": "http://feeds.feedburner.com/ruanyifeng"
     },
     {
@@ -43,6 +43,14 @@
     {
       "title": "I'm TualatriX",
       "url": "https://imtx.me/feed/latest/"
+    },
+    {
+      "title": "贤民的比特回忆",
+      "url": "https://www.xianmin.org/index.xml"
+    },
+    {
+      "title": "茶歇驿站",
+      "url": "https://maiyang.me/index.xml"
     }
   ]
 }
